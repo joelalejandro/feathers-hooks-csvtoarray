@@ -1,0 +1,26 @@
+{
+  "name": "feathers-hooks-csvtoarray",
+  "version": "0.0.1",
+  "description": "Feathers hook for converting a comma-delimited list to an Array of strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelalejandro/feathers-hooks-csvtoarray.git"
+  },
+  "keywords": [
+    "feathers",
+    "hook",
+    "csv",
+    "array",
+    "string"
+  ],
+  "author": "Joel A. Villarreal Bertoldi <joel.a.villarreal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelalejandro/feathers-hooks-csvtoarray/issues"
+  },
+  "homepage": "https://github.com/joelalejandro/feathers-hooks-csvtoarray#readme"
+}
