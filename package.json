@@ -1,6 +1,6 @@
 {
   "name": "feathers-hooks-csvtoarray",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Feathers hook for converting a comma-delimited list to an Array of strings.",
   "main": "index.js",
   "scripts": {
