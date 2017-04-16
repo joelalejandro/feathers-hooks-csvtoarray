@@ -23,7 +23,11 @@ function applyCsvToArrayTransform(data, model) {
 
 module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
   return function (hook) {
-    hook.result.data = applyCsvToArrayTransform(hook.result.data, hook.service.Model);
+    if (hook.method === 'find') {
+      hook.result.data = applyCsvToArrayTransform(hook.result.data, hook.service.Model);
+    } else if (hook.method === 'get') {
+      hook.result = applyCsvToArrayTransform(hook.result, hook.service.Model);
+    }
     return Promise.resolve(hook);
   };
 };
