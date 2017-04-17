@@ -1,7 +1,7 @@
 'use strict';
 
 function csvToArray(value) {
-  return value.split(',').map(function(item) { return item.trim(); });
+  return value !== null ? value.split(',').map(function(item) { return item.trim(); }) : [];
 }
 
 function applyCsvToArrayTransform(data, model) {
